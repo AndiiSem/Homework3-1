@@ -21,8 +21,11 @@ margin: 0;
     margin-top: 20px;
     align-self: center;
 }
+.blockRight{
+    justify-content: flex-start;
+}
 
-.blockInfo{
+.blockInfoRIght{
     width: 400px;
     height: 200px;
     background: rgb(255, 255, 255);
@@ -47,6 +50,33 @@ h1{
     font-size: 30px;
     top: 68%;
     right: 30%;
+}
+
+.blockLeft{
+    justify-content: flex-end;
+}
+
+.blockInfoLeft{
+    width: 400px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    display: block;
+    padding: 40px;
+    position: absolute;
+    top: 28%;
+    left: 8%;
+    z-index: 1;
+}
+
+.buttonLeft{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    background: grey;
+    z-index: 2;
+    font-size: 30px;
+    top: 68%;
+    left: 30%;
 }
 
 
